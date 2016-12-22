@@ -1,5 +1,5 @@
 # Classifying Dogs and Cats ussing CNN (MM803 Project- Image and Video Processing)
-![alt tag](https://github.com/shrobon/BoxHunter/blob/master/Unity-Box-Hunter.png)
+![alt tag](https://github.com/shrobon/Classifying-Dogs-and-Cats-using-CNN/blob/master/banner.png)
 The aim of this project is to use Deep Learning as a tool to correctly classify images of cats and dogs,using a subset of the Asirra dataset. To foster a good understanding, and appreciate some Deep Learning techniques and models, the project report has been drafted such that, every new experiment leads to an incremental growth in performance, compared to the previous experiment.
 **MM803_Project_Report.pdf file contains the full project report.**
 
@@ -30,12 +30,12 @@ python demo1.py -train train_basic
 python exp1_Test_batch.py -image test_classification
 ```
 ## Training Loss VS Validation Loss
-![alt tag](https://github.com/shrobon/BoxHunter/blob/master/Unity-Box-Hunter.png)
+![alt tag](https://github.com/shrobon/Classifying-Dogs-and-Cats-using-CNN/blob/master/figure_1-3.png)
 
 ## Watch this youtube video
-![alt tag](https://github.com/shrobon/BoxHunter/blob/master/Unity-Box-Hunter.png)
+[![Demo Video](https://github.com/shrobon/Classifying-Dogs-and-Cats-using-CNN/blob/master/Dogs_cats.png)](https://www.youtube.com/watch?v=SfeCFWZIr3Q "Watch this Demo Video")
 
-#Experiements were performed using the following hardware
+## Experiements were performed using the following hardware
 1. Processor: Intel Core i7-6700HQ(2.6Ghz)
 2. RAM: 16GB DDR4
 3. GPU: Nvidia GTX 1060 (6GB)
