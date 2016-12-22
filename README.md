@@ -1,10 +1,14 @@
 # Classifying Dogs and Cats ussing CNN (MM803 Project- Image and Video Processing)
 ![alt tag](https://github.com/shrobon/Classifying-Dogs-and-Cats-using-CNN/blob/master/banner.png)
+
 The aim of this project is to use Deep Learning as a tool to correctly classify images of cats and dogs,using a subset of the Asirra dataset. To foster a good understanding, and appreciate some Deep Learning techniques and models, the project report has been drafted such that, every new experiment leads to an incremental growth in performance, compared to the previous experiment.
 **MM803_Project_Report.pdf file contains the full project report.**
 
 In this project, the different techniques like data augmentation, batch normalization, and weight
 initialization were studied and their results were compared. I was able to get a classification accuracy of 90.18%, without the use of an external dataset. This accuracy can further be improved by making just slight changes to the existing model by fine tuning the hyperparameters even more. Due to hardware constraints, I had to limit myself to at most of 200 epochs. This leaves a big scope for future work to be done using different activation functions like pRelu and leakyRelu, different models, and benchmarking their performance.
+
+## Watch this youtube video
+[![Demo Video](https://github.com/shrobon/Classifying-Dogs-and-Cats-using-CNN/blob/master/Dogs_cats.png)](https://www.youtube.com/watch?v=SfeCFWZIr3Q "Watch this Demo Video")
 
 ## The following softwares are required to run this project
 1. Python 2.7
@@ -32,8 +36,6 @@ python exp1_Test_batch.py -image test_classification
 ## Training Loss VS Validation Loss
 ![alt tag](https://github.com/shrobon/Classifying-Dogs-and-Cats-using-CNN/blob/master/figure_1-3.png)
 
-## Watch this youtube video
-[![Demo Video](https://github.com/shrobon/Classifying-Dogs-and-Cats-using-CNN/blob/master/Dogs_cats.png)](https://www.youtube.com/watch?v=SfeCFWZIr3Q "Watch this Demo Video")
 
 ## Experiements were performed using the following hardware
 1. Processor: Intel Core i7-6700HQ(2.6Ghz)
